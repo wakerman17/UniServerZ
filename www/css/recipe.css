@@ -1,0 +1,101 @@
+#middle {
+	width: 100%;
+	float: left;
+	background: linear-gradient(to right, #e6e6e6 2%, #e6e6e6 15%, #d9d9d9 25%, #d9d9d9 70%, #ffffff 71%);
+	border: 1px solid black;
+	padding-bottom: 1%;
+}
+
+#ingredients {
+	float: left;
+	width: 30%;
+}
+
+em {
+	font-style: italic;
+}
+
+#comments {
+	display: block;
+	float: right;
+	width: 27%;
+	padding-bottom: 0%;
+}
+
+main {
+	float: left; 
+	display: inline-block;
+	width: 40%;
+	font-size: 120%;
+}
+
+@media screen and (max-width: 1000px) {
+	
+	.start {
+		width: 17.9%;
+	}
+	
+	#middle {
+		background: #d9d9d9;
+	}
+	
+	#ingredients {
+		float: left;
+		width: 46%;
+	}
+	
+	main {
+		float: left;
+		width: 54%;
+	}
+	
+	#comments {
+		width: 54%;
+		background: #d9d9d9;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+	.start {
+		width: 17.4%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	
+	header {
+		opacity: 1.0;
+		border-radius: 0%;
+		width: 100%;
+	}
+	
+	footer {
+		opacity: 1.0;
+		border-radius: 0%;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	
+	#ingredients {
+		width: 100%;
+	}
+	
+	main {
+		float: left;
+		width: 99%;
+	}
+	
+	#comments {
+		width: 98%;
+		background: #d9d9d9;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	
+	header {
+		opacity: 1.0;
+	}
+}

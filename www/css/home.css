@@ -1,0 +1,92 @@
+#middle {
+	width: 100%;
+	float: left;
+	background: linear-gradient(to right, #e6e6e6 2%, #e6e6e6 15%, #d9d9d9 25%, #d9d9d9 79%, #ffffff 81%);
+	border: 1px solid black;
+}
+
+main {
+	float: left; 
+	display: inline-block;
+	width: 60%;
+	font-size: 120%;
+}
+
+video {
+	width: 70%;
+	height: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+#SN {
+	float: left;
+	width: 20%;
+}
+
+#news {
+	display: block;
+	float: right;
+	width: 19%;
+	padding-bottom: 10%;
+	font-size: 120%;
+}
+
+@media screen and (max-width: 1000px) {
+	
+	.start {
+		width: 17.9%;
+	}
+	
+	#middle {
+		background: #d9d9d9;
+	}
+	
+	main {
+		width: 79%;
+	}
+	
+	#news {
+		width: 80%;
+		background: #d9d9d9;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+	.start {
+		width: 17.4%;
+	}
+	
+	#SN {
+		width: 100%;
+	}
+	
+	main {
+		width: 99%;
+	}
+	
+	#news {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	
+	header {
+		border-radius: 0%;
+		width: 100%;
+	}
+	
+	footer {
+		border-radius: 0%;
+		width: 99.5%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	
+	header {
+		opacity: 1.0;
+	}
+}

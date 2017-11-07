@@ -1,0 +1,153 @@
+body {
+	width: 90%;
+	margin: 0 auto;
+	background-image: url("../images/table.jpeg");
+	min-width: 320px;
+}
+
+header {
+	opacity: 0.95;
+	position: relative;
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+}
+
+h1 {
+	display: block;
+	font-size: 32px;
+	margin-top: 10.72px;
+	margin-bottom: 10.72px;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+h2 {
+	display: block;
+	font-size: 24px;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+h3 { 
+	display: block;
+	font-size: 18.72px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+figure { 
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+ol {
+	list-style-type: decimal;
+	margin-left: 20px;
+}
+
+img {
+	width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.start {
+	width: 18.3%;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+}
+
+#logo {
+	margin-top: 0px;
+	width: 25%;
+}
+
+nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+#active {
+	background-color: #FF4500;
+	color: white;
+	font-size: 120%;
+}
+
+.navLink:hover {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	font-size: 150%;
+}
+
+.navLink {
+	display: block;
+	text-align: center;
+	font-family: Georgia, serif;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 100%;
+	color: #ffffff;
+}
+
+div {
+	margin-left: 0%;
+}
+
+a {
+	text-decoration: none;
+	color: #1f7a7a;
+}
+
+a:hover {
+	color: #4d4d4d;
+	text-decoration: underline;
+}
+
+p {
+	display: block;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 16px;
+	font-family: Georgia, serif;
+}
+
+strong { 
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Georgia, serif
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	width: 100%;
+	background-color: #cccccc;
+	border: 1px solid black;
+	border-bottom-right-radius: 20%;
+	border-bottom-left-radius: 20%;
+}
