@@ -26,7 +26,7 @@ main {
 	float: left; 
 	display: inline-block;
 	width: 40%;
-	font-size: 120%;
+	font-size: 19.3px;
 }
 
 @media screen and (max-width: 1000px) {
