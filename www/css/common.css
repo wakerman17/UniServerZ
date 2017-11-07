@@ -51,10 +51,8 @@ h3 {
 
 figure { 
     display: block;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 40px;
-    margin-right: 40px;
+	margin: 0px;
+	margin: 16px 40px;
 }
 
 ol {
@@ -92,14 +90,14 @@ nav {
 #active {
 	background-color: #FF4500;
 	color: white;
-	font-size: 120%;
+	font-size: 20px;
 }
 
 .navLink:hover {
 	color: black;
 	background-color: white;
 	text-decoration: none;
-	font-size: 150%;
+	font-size: 24px;
 }
 
 .navLink {
@@ -108,7 +106,7 @@ nav {
 	font-family: Georgia, serif;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 100%;
+	font-size: 16px;
 	color: #ffffff;
 }
 
